@@ -1,5 +1,7 @@
 # polish-school
-Collection of exercises from IT school (when I have 18 years old)
+Collection of exercises from IT school (students are 18 years old)
+
+Examples folder contain files that are shown to us.
 
 First of all:
 - we don't know git
