@@ -3,8 +3,9 @@ Collection of exercises from IT school (students are 18 years old)
 
 Examples folder contain files that are shown to us.
 
-First of all:
-- we don't know git
+We:
+- first of all, don't know git.
+- mostly write built-in functions
 
 # front-end
 We:
