@@ -6,6 +6,11 @@ Examples folder contain files that are shown to us.
 First of all:
 - we don't know git
 
+# front-end
+We:
+- use `<frame>` tag
+- mostly work with `<table> </table>` tag
+
 # javascript
 We:
 - can't use `console`
@@ -16,37 +21,5 @@ We:
 - don't know npm
 - use `document.write`
 
-## example
-### even or odd solution
-#### they learn us:
-```javascript
-function evenOrOdd(a)
-{
-	if(a%2==0)
-	{
-	  document.write("even");
-	}
-	else
-	{
-	  document.write("odd");
-	}
-}
-
-var x=parseFloat(prompt("Provide number ",""));
-evenOrOdd(x)
-```
-#### when I prefer
-```javascript
-let evenOrOdd = n => n % 2 == 0 ? 'even' : 'odd';
-
-evenOrOdd(+prompt('Provide number'));
-```
-
 # php
 ### ?
-
-# front-end
-We:
-- use `<frame>` tag
-- mostly work with `<table> </table>` tag
-
