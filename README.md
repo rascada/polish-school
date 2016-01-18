@@ -1,14 +1,18 @@
 # polish-school
-Collection of exercises from school (when I have 18 years old)
+Collection of exercises from IT school (when I have 18 years old)
 
-In Polish school we:
+First of all:
+- we don't know git
+
+# javascript
+We:
 - can't use `console`
 - most of the time we can't use arrays, functions and objects
 - can't use es6
 - don't know what dom is
+- don't know node
+- don't know npm
 - use `document.write`
-- use `<frame>` tag
-- mostly work with `<table> </table>` tag
 
 ## example
 ### even or odd solution
@@ -35,3 +39,12 @@ let evenOrOdd = n => n % 2 == 0 ? 'even' : 'odd';
 
 evenOrOdd(+prompt('Provide number'));
 ```
+
+# php
+### ?
+
+# front-end
+We:
+- use `<frame>` tag
+- mostly work with `<table> </table>` tag
+
