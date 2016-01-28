@@ -1,0 +1,14 @@
+<body>
+	<script>
+	'use strict';
+
+	function isOldEnough() {
+		let name = prompt('podaj imie');
+		let age = +prompt('podaj wiek');
+		
+		document.body.innerText = `${name} jest ${age < 18 ? 'nie' : ''}pełnoletni`;
+	}
+	
+	isOldEnough();
+	</script>
+</body>
