@@ -1,0 +1,19 @@
+<body>
+	<script>
+	'use strict';
+
+	function range(n) {
+		let range = [];
+		
+		for (let i = n; i--;) {
+			range.push(i + 1);
+		}
+		
+		document.body.innerText += `Zakres to ${range} \n`;
+		document.body.innerText += `Suma to ${range.reduce( (val, prev) => val + prev)}`;
+	}
+	
+	range(+prompt('podaj numer'));
+
+	</script>
+</body>
