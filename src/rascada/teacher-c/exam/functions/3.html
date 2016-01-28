@@ -1,0 +1,12 @@
+<body>
+	<script>
+	'use strict';
+
+	let dividable = (n, divider) => !(n % divider) ? 'podzielna' : 'niepodzielna';
+	
+	let first = +prompt('liczba');	
+	
+	alert( dividable(first, +prompt(`czy ${first} jest podzielna przez:`)));
+
+	</script>
+</body>
