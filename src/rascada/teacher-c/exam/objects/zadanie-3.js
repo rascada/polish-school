@@ -12,7 +12,7 @@ date
 				case '04': return 'Kwietnia';
 				case '05': return 'Maja';
 			}
-
+	
 		return text;
 	})
 	.forEach(text => document.body.innerText += ` ${text}`);
