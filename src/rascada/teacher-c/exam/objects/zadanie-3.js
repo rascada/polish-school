@@ -1,7 +1,7 @@
 'use strict';
 
 const now = new Date();
-let date = now.toLocaleDateString();
+const date = now.toLocaleDateString();
 
 date
 	.split('.')
