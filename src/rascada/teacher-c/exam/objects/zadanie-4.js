@@ -9,5 +9,5 @@ card
 			case 1: return text.strike();
 			case 2: return text.small();
 		}
-  )
+	)
 	.forEach(text => document.body.innerHTML += `${text} <br>`);
