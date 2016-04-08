@@ -25,7 +25,7 @@ EVEN_OR_ODD(+prompt('Provide number'));
   * one line code
 
   * good
-  document.innerText = +prompt('Podaj liczbę') % 2 == 0 ? 'parzysta' : 'nie parzysta';
+  document.body.innerText = +prompt('Podaj liczbę') % 2 == 0 ? 'parzysta' : 'nie parzysta';
 
   * bad
   document.write( +prompt('Podaj liczbę') % 2 == 0 ? 'parzysta' : 'nie parzysta' );
