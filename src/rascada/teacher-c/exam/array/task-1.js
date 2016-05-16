@@ -1,11 +1,10 @@
+'use strict';
 
-		'use strict';
+const arr = [];
 
-		var arr = [];
+for (let i = 5; i--;) {
+	arr.push(i + 1);
+}
 
-		for (var i = 5; i--;) {
-			arr.push(i + 1);
-		}
-
-		document.body.innerText = `Elementow tablicy = ${arr}
-		  Dlugosc tablicy wynosi: ${arr.length}`;
+document.body.innerText = `Elementow tablicy = ${arr}
+  Dlugosc tablicy wynosi: ${arr.length}`;
